@@ -2,11 +2,11 @@
 
 Sitio web para empresa de eventos y banquetes desarrollado con HTML, CSS y JavaScript vanilla.
 
-## 🌸 Descripción
+## Descripción
 
 Momentos Eternos es una empresa de eventos y banquetes en Bogotá. Este sitio web informativo presenta sus servicios, galería de trabajos, historia y formulario de contacto.
 
-## 📄 Secciones
+## Secciones
 
 - **Inicio** — Hero principal con llamado a la acción
 - **Servicios** — Bodas, quinceaños, corporativos, catering y más
@@ -15,7 +15,7 @@ Momentos Eternos es una empresa de eventos y banquetes en Bogotá. Este sitio we
 - **Testimonios** — Reseñas de clientes
 - **Contacto** — Formulario de cotización
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - HTML5 semántico
 - CSS3 (variables, grid, flexbox, animaciones)
@@ -23,7 +23,7 @@ Momentos Eternos es una empresa de eventos y banquetes en Bogotá. Este sitio we
 - Google Fonts (Playfair Display + Jost)
 - Diseño responsive (móvil, tablet, escritorio)
 
-## 🚀 Cómo usar
+## Cómo usar
 
 Solo abre el archivo `index.html` en tu navegador. No requiere instalación.
 
@@ -32,7 +32,7 @@ Para hacer deploy en Vercel:
 2. Conecta el repositorio en vercel.com
 3. Deploy automático ✅
 
-## 🌐 Deploy
+## Deploy
 
 Sitio desplegado en: [enlace-aquí]
 Repositorio: [enlace-github-aquí]

@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Momentos Eternos — Eventos & Banquetes</title>
+<meta name="description" content="Transformamos tus celebraciones en recuerdos que duran toda la vida. Bodas, quinceaños, eventos corporativos y banquetes en Bogotá.">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="nav-logo">Momentos <span>Eternos</span></div>
+  <ul class="nav-links">
+    <li><a href="#inicio">Inicio</a></li>
+    <li><a href="#servicios">Servicios</a></li>
+    <li><a href="#galeria">Galería</a></li>
+    <li><a href="#nosotros">Nosotros</a></li>
+    <li><a href="#contacto">Contacto</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('contacto').scrollIntoView({behavior:'smooth'})">Cotizar evento</button>
+  <button class="hamburger" id="hamburger" aria-label="Menú">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<section id="inicio">
+  <div class="hero-left">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Eventos & Banquetes</p>
+      <h1 class="hero-title">Cada celebración merece ser <em>inolvidable</em></h1>
+      <p class="hero-sub">Transformamos tus sueños en experiencias que perduran en el corazón. Bodas, quinceaños, corporativos y más.</p>
+      <div class="hero-btns">
+        <button class="btn-primary" onclick="document.getElementById('servicios').scrollIntoView({behavior:'smooth'})">Ver servicios</button>
+        <button class="btn-ghost" onclick="document.getElementById('galeria').scrollIntoView({behavior:'smooth'})">Ver galería</button>
+      </div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img class="hero-img" src="https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80" alt="Evento elegante">
+    <div class="hero-badge">
+      <p>Eventos realizados</p>
+      <strong>+500</strong>
+    </div>
+  </div>
+</section>
+
+<div class="stats-bar">
+  <div class="stat"><div class="stat-num">+500</div><div class="stat-label">Eventos realizados</div></div>
+  <div class="stat"><div class="stat-num">12</div><div class="stat-label">Años de experiencia</div></div>
+  <div class="stat"><div class="stat-num">98%</div><div class="stat-label">Clientes satisfechos</div></div>
+  <div class="stat"><div class="stat-num">+50</div><div class="stat-label">Aliados y proveedores</div></div>
+</div>
+
+<section id="servicios">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Lo que ofrecemos</span>
+      <h2 class="section-title">Servicios a tu medida</h2>
+      <p class="section-sub">Cada evento es único. Nos adaptamos a tu visión y presupuesto para crear algo extraordinario.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon">💍</div>
+        <h3 class="service-name">Bodas</h3>
+        <p class="service-desc">Organizamos el día más especial de tu vida con cada detalle cuidado: ceremonia, recepción, banquete y decoración temática.</p>
+        <span class="service-tag">Desde 80 personas</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">✨</div>
+        <h3 class="service-name">Quinceaños</h3>
+        <p class="service-desc">Celebra este momento único con una fiesta mágica. Decoración personalizada, banquete gourmet y coordinación total del evento.</p>
+        <span class="service-tag">Paquetes personalizados</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🏢</div>
+        <h3 class="service-name">Eventos corporativos</h3>
+        <p class="service-desc">Lanzamientos, cenas de gala, convenciones y celebraciones empresariales con la elegancia que tu empresa merece.</p>
+        <span class="service-tag">Desde 30 personas</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🎂</div>
+        <h3 class="service-name">Celebraciones especiales</h3>
+        <p class="service-desc">Bautizos, primeras comuniones, aniversarios y cualquier celebración familiar con atención personalizada.</p>
+        <span class="service-tag">Cualquier escala</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🍽️</div>
+        <h3 class="service-name">Banquetes & Catering</h3>
+        <p class="service-desc">Menús diseñados por chefs especializados. Cocina internacional y criolla con los más altos estándares de calidad.</p>
+        <span class="service-tag">Menús desde $35.000/persona</span>
+      </div>
+      <div class="service-card">
+        <div class="service-icon">🌸</div>
+        <h3 class="service-name">Decoración & Ambientación</h3>
+        <p class="service-desc">Transformamos cualquier espacio en un escenario de ensueño. Flores, iluminación, mobiliario y montaje completo.</p>
+        <span class="service-tag">Diseño a medida</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Nuestro trabajo</span>
+      <h2 class="section-title">Momentos que hemos creado</h2>
+      <p class="section-sub">Una muestra de las celebraciones que han confiado en nosotros para hacer realidad sus sueños.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item gallery-main">
+        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80" alt="Boda elegante">
+        <div class="gallery-overlay"><span class="gallery-label">Boda — Salón Dorado</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&q=80" alt="Decoración floral">
+        <div class="gallery-overlay"><span class="gallery-label">Quinceaños — Jardín</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1478146059778-26b9d7640ede?w=600&q=80" alt="Banquete">
+        <div class="gallery-overlay"><span class="gallery-label">Corporativo — Gala</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1510076857177-7470076d4098?w=600&q=80" alt="Mesa decorada">
+        <div class="gallery-overlay"><span class="gallery-label">Decoración de mesa</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1470753937643-efeb931202a9?w=600&q=80" alt="Celebración">
+        <div class="gallery-overlay"><span class="gallery-label">Aniversario especial</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="nosotros">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap">
+        <div class="about-img-deco"></div>
+        <img class="about-img" src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=600&q=80" alt="Nuestro equipo">
+      </div>
+      <div class="about-text-col">
+        <span class="about-eyebrow">Quiénes somos</span>
+        <h2 class="about-title">Más de una década creando <em>recuerdos</em></h2>
+        <p class="about-text">Somos un equipo apasionado por los detalles. Desde 2012, hemos acompañado a cientos de familias y empresas en sus celebraciones más importantes, poniendo todo nuestro corazón en cada evento.</p>
+        <p class="about-text">Creemos que cada momento especial merece ser vivido sin preocupaciones. Por eso nos encargamos de absolutamente todo, para que tú solo te dediques a disfrutar.</p>
+        <div class="about-values">
+          <div class="about-value">
+            <div class="value-dot"></div>
+            <p class="value-text"><strong>Atención personalizada</strong> — Cada cliente tiene un coordinador dedicado desde el primer contacto hasta el día del evento.</p>
+          </div>
+          <div class="about-value">
+            <div class="value-dot"></div>
+            <p class="value-text"><strong>Calidad garantizada</strong> — Trabajamos solo con proveedores seleccionados que comparten nuestra visión de excelencia.</p>
+          </div>
+          <div class="about-value">
+            <div class="value-dot"></div>
+            <p class="value-text"><strong>Transparencia total</strong> — Presupuestos claros y sin sorpresas. Sabemos lo importante que es la confianza.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="testimonials-section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Testimonios</span>
+      <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Superaron todas nuestras expectativas. Cada detalle estuvo perfecto y nuestros invitados aún hablan de esa noche."</p>
+        <p class="testimonial-author">Valentina & Andrés Morales</p>
+        <p class="testimonial-event">Boda — Diciembre 2024</p>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"El quinceaños de mi hija fue un sueño hecho realidad. El equipo escuchó cada idea y la llevó a otro nivel."</p>
+        <p class="testimonial-author">Carolina Jiménez</p>
+        <p class="testimonial-event">Quinceaños — Octubre 2024</p>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p class="testimonial-text">"Profesionales de principio a fin. Nuestra gala corporativa quedó impecable. Con gusto los recomendamos."</p>
+        <p class="testimonial-author">Ricardo Ponce — Constructora Andina</p>
+        <p class="testimonial-event">Evento corporativo — Agosto 2024</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-eyebrow">Hablemos</span>
+      <h2 class="section-title">Hagamos realidad tu evento</h2>
+      <p class="section-sub">Cuéntanos tu sueño y te enviamos una propuesta sin compromiso en 24 horas.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact-info">
+        <h3>Estamos para ti</h3>
+        <p>Nos encanta escuchar ideas nuevas. No importa el tamaño o el presupuesto, siempre encontramos la mejor manera de crear algo especial para ti.</p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div class="contact-detail"><p>Dirección</p><strong>Calle 45 #22-18, Bogotá, Colombia</strong></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div class="contact-detail"><p>Teléfono</p><strong>+57 314 567 8900</strong></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div class="contact-detail"><p>Correo</p><strong>info@momentosetemos.co</strong></div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div class="contact-detail"><p>Horario de atención</p><strong>Lun – Sáb: 8:00 am – 6:00 pm</strong></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ✅ CAMBIOS: id, sin action/method, name en cada campo, cierre </form> correcto -->
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label>Nombre completo</label>
+            <input type="text" name="nombre" placeholder="Tu nombre" required>
+          </div>
+          <div class="form-group">
+            <label>Correo electrónico</label>
+            <input type="email" name="correo" placeholder="tu@correo.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Teléfono</label>
+            <input type="tel" name="telefono" placeholder="+57 300 000 0000">
+          </div>
+          <div class="form-group">
+            <label>Tipo de evento</label>
+            <select name="tipo_evento">
+              <option>Seleccionar...</option>
+              <option>Boda</option>
+              <option>Quinceaños</option>
+              <option>Evento corporativo</option>
+              <option>Celebración familiar</option>
+              <option>Otro</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Fecha aproximada</label>
+            <input type="date" name="fecha">
+          </div>
+          <div class="form-group">
+            <label>Número de personas</label>
+            <input type="number" name="personas" placeholder="Ej: 150">
+          </div>
+        </div>
+        <div class="form-group">
+          <label>Cuéntanos tu sueño</label>
+          <textarea name="mensaje" placeholder="Describe tu evento ideal, referencias, colores, tema..."></textarea>
+        </div>
+        <button type="submit" class="form-submit">Enviar solicitud de cotización →</button>
+      </form>
+
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div>
+      <div class="footer-logo-text">Momentos <span>Eternos</span></div>
+      <p class="footer-tagline">Transformamos celebraciones en recuerdos que duran toda la vida.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Servicios</h4>
+      <ul>
+        <li>Bodas</li><li>Quinceaños</li><li>Corporativos</li><li>Catering</li><li>Decoración</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Empresa</h4>
+      <ul>
+        <li>Nosotros</li><li>Galería</li><li>Testimonios</li><li>Blog</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contacto</h4>
+      <ul>
+        <li>+57 3132010234</li>
+        <li>Bogotá, Colombia</li>
+        <li>Instagram</li>
+        <li>WhatsApp</li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Momentos Eternos. Todos los derechos reservados.</p>
+    <div class="footer-social">
+      <span>Instagram</span>
+      <span>Facebook</span>
+      <span>WhatsApp</span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
